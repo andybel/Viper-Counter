@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Count View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CNTCountViewController" customModule="Viper_Counter_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEj-yR-F4A">
+                                <rect key="frame" x="0.0" y="54" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Sb7-e8-vyV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaD-eM-8la">
+                                <rect key="frame" x="300" y="112" width="300" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="acE-nP-pqx"/>
+                                </constraints>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="increment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bb2-20-LOY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJT-qV-esU">
+                                <rect key="frame" x="0.0" y="112" width="300" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="a4Z-ZN-aA6"/>
+                                </constraints>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="decrement:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JGu-Fj-P71"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oJT-qV-esU" firstAttribute="top" secondItem="YEj-yR-F4A" secondAttribute="bottom" constant="8" id="AHF-Z8-xEx"/>
+                            <constraint firstItem="YEj-yR-F4A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="34" id="Ehe-yC-jjf"/>
+                            <constraint firstItem="AaD-eM-8la" firstAttribute="top" secondItem="YEj-yR-F4A" secondAttribute="bottom" constant="8" id="FqG-jl-u4Z"/>
+                            <constraint firstItem="YEj-yR-F4A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="I8K-H8-QA7"/>
+                            <constraint firstAttribute="trailing" secondItem="YEj-yR-F4A" secondAttribute="trailing" id="Nz3-as-5V8"/>
+                            <constraint firstItem="oJT-qV-esU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d0M-2P-5cH"/>
+                            <constraint firstItem="oJT-qV-esU" firstAttribute="width" secondItem="YEj-yR-F4A" secondAttribute="width" multiplier="0.5" id="h9F-rU-AGE"/>
+                            <constraint firstAttribute="trailing" secondItem="AaD-eM-8la" secondAttribute="trailing" id="x3H-Ay-ZQq"/>
+                            <constraint firstItem="AaD-eM-8la" firstAttribute="width" secondItem="oJT-qV-esU" secondAttribute="width" id="zJz-j2-oX4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countLabel" destination="YEj-yR-F4A" id="JNg-6y-S7q"/>
+                        <outlet property="decrementBtn" destination="oJT-qV-esU" id="fCP-yr-giS"/>
+                        <outlet property="incrementBtn" destination="AaD-eM-8la" id="t8Y-Bj-62g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="439"/>
+        </scene>
+    </scenes>
+</document>
