@@ -29,6 +29,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaD-eM-8la">
                                 <rect key="frame" x="300" y="112" width="300" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.43529411759999997" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="acE-nP-pqx"/>
                                 </constraints>
@@ -39,6 +40,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJT-qV-esU">
                                 <rect key="frame" x="0.0" y="112" width="300" height="49"/>
+                                <color key="backgroundColor" red="0.51372549020000002" green="0.72941176470000002" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="a4Z-ZN-aA6"/>
                                 </constraints>
