@@ -13,18 +13,19 @@ class CNTCountViewController: UIViewController, CNTCountView {
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var decrementBtn: UIButton!
     @IBOutlet weak var incrementBtn: UIButton!
+    @IBOutlet weak var showCountBtn: UIButton!
     
     var presenter:CNTCountPresenter?
     
     override func viewDidLoad() {
         
-        self.countLabel.text = nil
+        self.countLabel.text = "0"
         
-        self.presenter = CNTCountPresenter()
+//        self.presenter = CNTCountPresenter()
         self.presenter?.view = self
-        
-        self.presenter?.interactor = CNTCountInteractor()
-        self.presenter?.interactor?.output = self.presenter
+//        
+//        self.presenter?.interactor = CNTCountInteractor()
+//        self.presenter?.interactor?.output = self.presenter
         
     }
     
@@ -35,6 +36,10 @@ class CNTCountViewController: UIViewController, CNTCountView {
     
     @IBAction func increment(sender: AnyObject) {
         self.presenter?.increment()
+    }
+    
+    @IBAction func showCountBtnAction(sender: AnyObject) {
+        self.presenter?.showCount()
     }
     
 }

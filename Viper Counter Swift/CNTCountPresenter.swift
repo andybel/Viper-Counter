@@ -11,6 +11,8 @@ import UIKit
 class CNTCountPresenter: NSObject, CNTCountInteractorOutput {
 
     var view:CNTCountView?
+    var countWireframe: CNTCountWireframe?
+    
     var interactor:CNTCountInteractor?
     
     private var countFormatter = NSNumberFormatter(){
@@ -33,6 +35,10 @@ class CNTCountPresenter: NSObject, CNTCountInteractorOutput {
     
     func decrement(){
         self.interactor?.decrement()
+    }
+    
+    func showCount(){
+        self.countWireframe?.presentCountResultsInterface()
     }
     
     // #3 - The Presenter also receives results from an Interactor and converts the results into a form that is efficient to display in a View.

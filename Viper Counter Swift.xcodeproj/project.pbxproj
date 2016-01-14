@@ -16,6 +16,16 @@
 		23A1B3451C440B0800AF13AA /* CNTCountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1B3441C440B0800AF13AA /* CNTCountInteractor.swift */; };
 		23A1B3471C440D7000AF13AA /* CNTCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1B3461C440D7000AF13AA /* CNTCountViewController.swift */; };
 		23A1B3491C44109000AF13AA /* CNTCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1B3481C44109000AF13AA /* CNTCountView.swift */; };
+		23C111D61C465F20004B9DF2 /* CNTCountResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111D51C465F20004B9DF2 /* CNTCountResultPresenter.swift */; };
+		23C111D81C466054004B9DF2 /* CNTCountResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111D71C466054004B9DF2 /* CNTCountResultViewController.swift */; };
+		23C111DA1C466081004B9DF2 /* CNTCountResultViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111D91C466081004B9DF2 /* CNTCountResultViewProtocol.swift */; };
+		23C111DC1C4660A5004B9DF2 /* CNTCountResultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111DB1C4660A5004B9DF2 /* CNTCountResultInteractor.swift */; };
+		23C111DE1C4668BC004B9DF2 /* CNTCountResultInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111DD1C4668BC004B9DF2 /* CNTCountResultInteractorIO.swift */; };
+		23C111E01C467909004B9DF2 /* AppDependancies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111DF1C467909004B9DF2 /* AppDependancies.swift */; };
+		23C111E21C4679FC004B9DF2 /* CNTCountWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111E11C4679FC004B9DF2 /* CNTCountWireframe.swift */; };
+		23C111E51C467D07004B9DF2 /* CNTRootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111E41C467D07004B9DF2 /* CNTRootWireframe.swift */; };
+		23C111E71C47D451004B9DF2 /* CNTCountResultWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111E61C47D451004B9DF2 /* CNTCountResultWireframe.swift */; };
+		23C111EB1C47EB5D004B9DF2 /* CNTSuperWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C111EA1C47EB5D004B9DF2 /* CNTSuperWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +40,16 @@
 		23A1B3441C440B0800AF13AA /* CNTCountInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountInteractor.swift; sourceTree = "<group>"; };
 		23A1B3461C440D7000AF13AA /* CNTCountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountViewController.swift; sourceTree = "<group>"; };
 		23A1B3481C44109000AF13AA /* CNTCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountView.swift; sourceTree = "<group>"; };
+		23C111D51C465F20004B9DF2 /* CNTCountResultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountResultPresenter.swift; sourceTree = "<group>"; };
+		23C111D71C466054004B9DF2 /* CNTCountResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountResultViewController.swift; sourceTree = "<group>"; };
+		23C111D91C466081004B9DF2 /* CNTCountResultViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountResultViewProtocol.swift; sourceTree = "<group>"; };
+		23C111DB1C4660A5004B9DF2 /* CNTCountResultInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountResultInteractor.swift; sourceTree = "<group>"; };
+		23C111DD1C4668BC004B9DF2 /* CNTCountResultInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountResultInteractorIO.swift; sourceTree = "<group>"; };
+		23C111DF1C467909004B9DF2 /* AppDependancies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependancies.swift; sourceTree = "<group>"; };
+		23C111E11C4679FC004B9DF2 /* CNTCountWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountWireframe.swift; sourceTree = "<group>"; };
+		23C111E41C467D07004B9DF2 /* CNTRootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTRootWireframe.swift; sourceTree = "<group>"; };
+		23C111E61C47D451004B9DF2 /* CNTCountResultWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTCountResultWireframe.swift; sourceTree = "<group>"; };
+		23C111EA1C47EB5D004B9DF2 /* CNTSuperWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTSuperWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,7 @@
 				23A1B34C1C453CFF00AF13AA /* Common */,
 				23A1B34B1C453CF700AF13AA /* Modules */,
 				23A1B32E1C44090D00AF13AA /* AppDelegate.swift */,
+				23C111DF1C467909004B9DF2 /* AppDependancies.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -82,6 +103,7 @@
 		23A1B34B1C453CF700AF13AA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				23C111CB1C465E2C004B9DF2 /* Count Result */,
 				23A1B34D1C453D1C00AF13AA /* Counter */,
 			);
 			name = Modules;
@@ -90,6 +112,8 @@
 		23A1B34C1C453CFF00AF13AA /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				23C111E91C47EB34004B9DF2 /* Wireframe */,
+				23C111E31C467CED004B9DF2 /* View */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -157,6 +181,7 @@
 		23A1B3541C453D9200AF13AA /* Wireframe */ = {
 			isa = PBXGroup;
 			children = (
+				23C111E11C4679FC004B9DF2 /* CNTCountWireframe.swift */,
 			);
 			name = Wireframe;
 			sourceTree = "<group>";
@@ -194,6 +219,107 @@
 				23A1B33A1C44090D00AF13AA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23C111CB1C465E2C004B9DF2 /* Count Result */ = {
+			isa = PBXGroup;
+			children = (
+				23C111CC1C465E37004B9DF2 /* Application Logic */,
+				23C111CD1C465E41004B9DF2 /* Module Interface */,
+				23C111CE1C465E4C004B9DF2 /* User Interface */,
+			);
+			name = "Count Result";
+			sourceTree = "<group>";
+		};
+		23C111CC1C465E37004B9DF2 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				23C111CF1C465E67004B9DF2 /* Manager */,
+				23C111D11C465E77004B9DF2 /* Interactor */,
+				23C111D01C465E6E004B9DF2 /* Model */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		23C111CD1C465E41004B9DF2 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		23C111CE1C465E4C004B9DF2 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				23C111D41C465EDF004B9DF2 /* Presenter */,
+				23C111D31C465ED7004B9DF2 /* View */,
+				23C111D21C465ECB004B9DF2 /* Wireframe */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		23C111CF1C465E67004B9DF2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		23C111D01C465E6E004B9DF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		23C111D11C465E77004B9DF2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				23C111DB1C4660A5004B9DF2 /* CNTCountResultInteractor.swift */,
+				23C111DD1C4668BC004B9DF2 /* CNTCountResultInteractorIO.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		23C111D21C465ECB004B9DF2 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				23C111E61C47D451004B9DF2 /* CNTCountResultWireframe.swift */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		23C111D31C465ED7004B9DF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23C111D71C466054004B9DF2 /* CNTCountResultViewController.swift */,
+				23C111D91C466081004B9DF2 /* CNTCountResultViewProtocol.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		23C111D41C465EDF004B9DF2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				23C111D51C465F20004B9DF2 /* CNTCountResultPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		23C111E31C467CED004B9DF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23C111E41C467D07004B9DF2 /* CNTRootWireframe.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		23C111E91C47EB34004B9DF2 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				23C111EA1C47EB5D004B9DF2 /* CNTSuperWireframe.swift */,
+			);
+			name = Wireframe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +395,20 @@
 			files = (
 				23A1B3471C440D7000AF13AA /* CNTCountViewController.swift in Sources */,
 				23A1B3451C440B0800AF13AA /* CNTCountInteractor.swift in Sources */,
+				23C111DA1C466081004B9DF2 /* CNTCountResultViewProtocol.swift in Sources */,
+				23C111DC1C4660A5004B9DF2 /* CNTCountResultInteractor.swift in Sources */,
+				23C111E01C467909004B9DF2 /* AppDependancies.swift in Sources */,
+				23C111E21C4679FC004B9DF2 /* CNTCountWireframe.swift in Sources */,
 				23A1B3491C44109000AF13AA /* CNTCountView.swift in Sources */,
+				23C111DE1C4668BC004B9DF2 /* CNTCountResultInteractorIO.swift in Sources */,
+				23C111EB1C47EB5D004B9DF2 /* CNTSuperWireframe.swift in Sources */,
+				23C111E51C467D07004B9DF2 /* CNTRootWireframe.swift in Sources */,
 				23A1B3411C44098800AF13AA /* CNTCountPresenter.swift in Sources */,
 				23A1B3431C440A3400AF13AA /* CNTCountInteractorIO.swift in Sources */,
+				23C111D81C466054004B9DF2 /* CNTCountResultViewController.swift in Sources */,
+				23C111E71C47D451004B9DF2 /* CNTCountResultWireframe.swift in Sources */,
 				23A1B32F1C44090D00AF13AA /* AppDelegate.swift in Sources */,
+				23C111D61C465F20004B9DF2 /* CNTCountResultPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +558,7 @@
 				23A1B33F1C44090D00AF13AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
